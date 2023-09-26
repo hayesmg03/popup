@@ -1,9 +1,9 @@
 const button = document.getElementById("click")
-const body = document.getElementsByName('body')
-console.log(body)
-const style = getComputedStyle(button)
+
+let color = button.style.backgroundColor
+
 console.log(button)
 button.addEventListener("click", e => {
-    // console.log(e.target)
-    
+    console.log(e.target)
+    color = "yellow"
 })
