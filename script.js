@@ -5,5 +5,5 @@ let color = button.style.backgroundColor
 console.log(button)
 button.addEventListener("click", e => {
     console.log(e.target)
-    color = "yellow"
+    console.log(color)
 })
