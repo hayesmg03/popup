@@ -3,7 +3,17 @@
     height: 100vh;
 }
 
+.container #caret{
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 10%;
+}
+
 #click{
+    position: relative;
+    top: 60px;
+    right: 10px;
     border: solid;
     border-radius: .75rem;
     height: 100px;
