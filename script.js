@@ -1,16 +1,16 @@
-const button = document.getElementById("click")
+const button = document.getElementById("description")
 
 const caret = document.getElementById("caret")
 
-let c = 1
+let menuVisibility = "visible"
 
 caret.addEventListener("click", e => {
     console.log(e.target)
-    if (c == 1){
-        document.getElementById("click").style.visibility = "hidden"
-        c += 1
-    } else if (c == 2) {
-        document.getElementById("click").style.visibility = "visible"
-        c -= 1
+    if (menuVisibility == "visible"){
+        document.getElementById("description").style.visibility = "hidden"
+        menuVisibility = "hidden"
+    } else if (menuVisibility == "hidden") {
+        document.getElementById("description").style.visibility = "visible"
+        menuVisibility = "visible"
     }
 })

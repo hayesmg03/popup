@@ -10,7 +10,7 @@
     width: 60px;
 }
 
-#click{
+#description{
     position: relative;
     left: 50px;
     border: solid;
@@ -20,4 +20,5 @@
     width: 200px;
     background-color: gray;
     color: white;
+    font-family: 'Nunito', sans-serif;
 }
